@@ -34,8 +34,6 @@ void loop() {
       verzendInstructie(SLAVE_ADDR, instructie);
       Serial.print("Instruction sent.\n");
 
-    } else {
-      Serial.write("Valid input please!");
     }
 
     //In case no serial communication is available.
