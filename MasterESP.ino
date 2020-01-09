@@ -88,7 +88,7 @@ void verzendInstructie(int SLAVE_ADDR, bool instructie) {
 
 //Method to setup a client for connection to a router/access point.
 void wifiSetup(){
-   WiFiMulti.addAP("SecHome", "1nsan3lyS3cur3@!");
+   WiFiMulti.addAP("ssid", "password");
 
    Serial.println();
    Serial.print("Waiting for WiFi... ");
